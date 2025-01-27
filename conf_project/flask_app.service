@@ -1,0 +1,12 @@
+[Unit]
+Description=flask app service - App con flask y Gunicorn
+After=network.target
+[Service]
+User=vagrant
+Group=www-data
+Environment="PATH=/home/vagrant/.local/share/virtualenvs/trobmor-3Xol3Vsb/bin"
+WorkingDirectory=/var/www/trobmor
+ExecStart=/home/vagrant/.local/share/virtualenvs/trobmor-3Xol3Vsb/bin/gunicorn --workers 3 --bind unix:/var/www/trobmor/trobmor.sock application:app
+
+[Install]
+WantedBy=multi-user.target
