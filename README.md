@@ -1,17 +1,17 @@
-#Despliegue
+# Despliegue
 
 - Comprobamos que está instalado correctamente mostrando su versión.
 Crear el directorio en el que se almacena el proyecto <b>trobmor</b> y darle sus privilegios correspondientes.
 
-<img src="./confProject/imgs/img.png" alt="Primer Resultado"></img>
+<img src="/confProject/imgs/img.png" alt="Primer Resultado"></img>
 
 - Crear un archivo oculto dentro del directorio con <b>variables de entorno necesarias</b>
 
-<img src="./confProject/imgs/img1.png" alt="Segundo Resultado"></img>
+<img src="/confProject/imgs/img1.png" alt="Segundo Resultado"></img>
 
 - Iniciamos ahora nuestro entorno virtual. Pipenv cargará las variables de entorno desde el fichero .env de forma automática.
 
-<img src="./confProject/imgs/img2.png" alt="Tercero Resultado"></img>
+<img src="/confProject/imgs/img2.png" alt="Tercero Resultado"></img>
 
 - Instalar las dependencias necesarias para nuestro proyecto.
 
