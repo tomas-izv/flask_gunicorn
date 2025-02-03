@@ -49,3 +49,31 @@ Crear el directorio en el que se almacena el proyecto <b>trobmor</b> y darle sus
 - Despliegue servida por <b>Gunicorn y Nginx</b>.
 
 <img src="/conf_project/imgs/img12.png" alt="Trece Resultado"></img>
+
+# Ampliacion
+
+- Darle sus privilegios correspondientes.
+
+<img src="/conf_project/imgs/image1.png" alt="Catorce Resultado"></img>
+
+- Crear un archivo oculto dentro del directorio con <b>variables de entorno necesarias</b>
+
+<img src="/conf_project/imgs/image2.png" alt="Quince Resultado"></img>
+
+- Iniciamos ahora nuestro entorno virtual. Pipenv cargará las variables de entorno desde el fichero .env de forma automática.
+
+<img src="/conf_project/imgs/image3.png" alt="Dieciseis Resultado"></img>
+
+- Y, tras activar el entorno virtual dentro del directorio del repositorio clonado, para instalar las dependencias del proyecto de la aplicación deberás hacer:
+
+<img src="/conf_project/imgs/image4.png" alt="Diecisiete Resultado"></img>
+
+- Y un último detalle, Gunicorn debe iniciarse ahora así:
+
+<img src="/conf_project/imgs/image5.png" alt="Dieciocho Resultado"></img>
+
+- Despliegue
+
+<img src="/conf_project/imgs/image6.png" alt="Diecinueve Resultado"></img>
+
+<img src="/conf_project/imgs/image7.png" alt="Veinte Resultado"></img>
